@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'BrickAndMortar'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
+    compile 'com.yahoofinance-api:YahooFinanceAPI:3.15.0'
+    compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
+    compile group: 'com.jcabi', name: 'jcabi-xml', version: '0.22.1'
+    compile group: 'org.slf4j', name: 'slf4j-nop', version: '2.0.0-alpha1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
+
+}
+
+mainClassName = 'BrickAndMortarStarter'
