@@ -7,11 +7,9 @@ If you would like to run this, you will need your own google api key and then ch
 
 Here is a sample output
 
-+------+------------+------+
-
 | NAME | DATE       | LOC  |
 
-+------+------------+------+
+|------|------------|------|
 
 | ANF  | 2021-08-10 | 2932 |
 
@@ -27,4 +25,4 @@ Here is a sample output
 
 | M    | 2021-08-10 | 4035 |
 
-+------+------------+------+
+|------|------------|------|
